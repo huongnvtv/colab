@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">LearnAndroid</string>
+    <string name="article_title">Article Title</string>
+    <string name="padding_regular">10dp</string>
+    <string name="article_subtitle">Article Subtitle</string>
+    <string name="article_text">
+        <b>Article text</b>
+        \n\n
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+        <p>Hello word</p>
+    </string>
+</resources>
