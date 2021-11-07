@@ -14,244 +14,265 @@
         android:layout_marginTop="99dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="36dp"
-        android:text="0"
+        android:text="@string/zero"
         android:textColor="@color/black"
         android:textSize="96sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/btn_clear"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_ce"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="263dp"
         android:background="@drawable/default_outline_btn"
-        android:text="CE"
+        android:text="@string/ce"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button9"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_7"
+        app:layout_constraintEnd_toStartOf="@+id/btn_c"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_c"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="263dp"
         android:background="@drawable/default_outline_btn"
-        android:text="C"
+        android:text="@string/C"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button10"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_8"
+        app:layout_constraintEnd_toStartOf="@+id/btn_clear"
+        app:layout_constraintStart_toEndOf="@+id/btn_ce"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/button3"
+        android:id="@+id/btn_clear"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="263dp"
         android:layout_marginEnd="1dp"
         android:background="@drawable/default_outline_btn"
+        android:contentDescription="@string/delete"
         android:src="@drawable/icon_backspace"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button11"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
-        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_9"
+        app:layout_constraintEnd_toStartOf="@+id/btn_div"
+        app:layout_constraintStart_toEndOf="@+id/btn_c"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
-        android:id="@+id/button4"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="2dp"
+        android:id="@+id/btn_div"
+        android:layout_width="99dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="408dp"
         android:background="@drawable/default_outline_btn"
+        android:contentDescription="@string/devide"
         android:src="@drawable/ic_divide_svgrepo_com"
-        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/showCaculate"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintStart_toEndOf="@+id/btn_clear"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btn_7"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="348dp"
         android:background="@drawable/default_outline_btn"
-        android:text="7"
+        android:text="@string/seven"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button10"
+        app:layout_constraintEnd_toStartOf="@+id/btn_8"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_ce" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btn_8"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="348dp"
         android:background="@drawable/default_outline_btn"
-        android:text="8"
+        android:text="@string/eight"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button11"
-        app:layout_constraintStart_toEndOf="@+id/button9"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintEnd_toStartOf="@+id/btn_9"
+        app:layout_constraintStart_toEndOf="@+id/btn_7"
+        app:layout_constraintTop_toBottomOf="@+id/btn_c" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/btn_9"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="348dp"
         android:background="@drawable/default_outline_btn"
-        android:text="9"
+        android:text="@string/nine"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button12"
-        app:layout_constraintStart_toEndOf="@+id/button10"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintEnd_toStartOf="@+id/btn_mul"
+        app:layout_constraintStart_toEndOf="@+id/btn_8"
+        app:layout_constraintTop_toBottomOf="@+id/btn_clear" />
 
     <ImageButton
-        android:id="@+id/button12"
+        android:id="@+id/btn_mul"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="3dp"
         android:layout_marginBottom="348dp"
         android:background="@drawable/default_outline_btn"
+        android:contentDescription="@string/nhan"
         android:src="@drawable/icon_nhan"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button11"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/btn_9"
+        app:layout_constraintTop_toBottomOf="@+id/btn_div"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/btn_4"
         android:layout_width="102dp"
         android:layout_height="60dp"
         android:background="@drawable/default_outline_btn"
-        android:text="4"
+        android:text="@string/four"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button9" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_7" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/btn_5"
         android:layout_width="102dp"
         android:layout_height="60dp"
         android:background="@drawable/default_outline_btn"
-        android:text="5"
+        android:text="@string/five"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/button13"
-        app:layout_constraintTop_toBottomOf="@+id/button10" />
+        app:layout_constraintStart_toEndOf="@+id/btn_4"
+        app:layout_constraintTop_toBottomOf="@+id/btn_8" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/btn_6"
         android:layout_width="102dp"
         android:layout_height="60dp"
         android:background="@drawable/default_outline_btn"
-        android:text="6"
+        android:text="@string/six"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/button14"
-        app:layout_constraintTop_toBottomOf="@+id/button11" />
+        app:layout_constraintStart_toEndOf="@+id/btn_5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_9" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/btn_minus"
         android:layout_width="102dp"
         android:layout_height="60dp"
         android:background="@drawable/default_outline_btn"
+        android:contentDescription="@string/minus"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/button15"
-        app:layout_constraintTop_toBottomOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_6"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mul"
         app:srcCompat="@drawable/ic_minus"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/btn_1"
         android:layout_width="102dp"
         android:layout_height="60dp"
         android:background="@drawable/default_outline_btn"
-        android:text="1"
+        android:text="@string/one"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button13" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_4" />
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/btn_2"
         android:layout_width="102dp"
         android:layout_height="60dp"
         android:background="@drawable/default_outline_btn"
-        android:text="2"
+        android:text="@string/two"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/button17"
-        app:layout_constraintTop_toBottomOf="@+id/button14" />
+        app:layout_constraintStart_toEndOf="@+id/btn_1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_5" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/btn_3"
         android:layout_width="102dp"
         android:layout_height="60dp"
         android:background="@drawable/default_outline_btn"
-        android:text="3"
+        android:text="@string/three"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/button18"
-        app:layout_constraintTop_toBottomOf="@+id/button15" />
+        app:layout_constraintStart_toEndOf="@+id/btn_2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_6" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/btn_add"
         android:layout_width="102dp"
         android:layout_height="60dp"
         android:background="@drawable/default_outline_btn"
+        android:contentDescription="@string/add"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/button19"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/btn_3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_minus"
         app:srcCompat="@drawable/icon_add"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/imageButton4"
+        android:id="@+id/btn_switch"
         android:layout_width="102dp"
         android:layout_height="60dp"
         android:background="@drawable/default_outline_btn"
+        android:text="@string/changeOperator"
         android:textSize="20sp"
-        android:text="+/-"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/btn_1"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/btn_0"
         android:layout_width="102dp"
         android:layout_height="60dp"
-        android:text="0"
         android:background="@drawable/default_outline_btn"
+        android:text="@string/zero"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/imageButton4"
-        app:layout_constraintTop_toBottomOf="@+id/button18" />
+        app:layout_constraintStart_toEndOf="@+id/btn_switch"
+        app:layout_constraintTop_toBottomOf="@+id/btn_2"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <ImageButton
-        android:id="@+id/button21"
+        android:id="@+id/btn_dot"
         android:layout_width="102dp"
         android:layout_height="60dp"
         android:background="@drawable/default_outline_btn"
+        android:contentDescription="@string/dot"
         android:src="@drawable/ic_icon_dot"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/button20"
-        app:layout_constraintTop_toBottomOf="@+id/button19"
+        app:layout_constraintStart_toEndOf="@+id/btn_0"
+        app:layout_constraintTop_toBottomOf="@+id/btn_3"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/button22"
+        android:id="@+id/btn_equal"
         android:layout_width="102dp"
         android:layout_height="60dp"
         android:background="@drawable/default_outline_btn"
+        android:contentDescription="@string/equal"
         android:src="@drawable/icon_baseline"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/button21"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:layout_constraintStart_toEndOf="@+id/btn_dot"
+        app:layout_constraintTop_toBottomOf="@+id/btn_add"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/caculateOperator"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="13dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/showCaculate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btn_clear"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
