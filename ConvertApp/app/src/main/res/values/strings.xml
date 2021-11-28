@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ConvertApp</string>
+    <string name="enter_the_number">Enter the number</string>
+    <string name="convert_to">convert to</string>
+    <string name="convert">Convert</string>
+    <string name="decimal">Decimal</string>
+    <string name="binary">Binary</string>
+    <string name="hexadecimal">Hexadecimal</string>
+    <string name="result">Result</string>
+    <string name="background">Background</string>
+    <string name="_0_button">Button 0</string>
+    <string name="_1_button">Button 1</string>
+    <string name="_2_button">Button 2</string>
+    <string name="_3_button">Button 3</string>
+    <string name="_4_button">Button 4</string>
+    <string name="_5_button">Button 5</string>
+    <string name="_6_button">Button 6</string>
+    <string name="_7_button">Button 7</string>
+    <string name="_8_button">Button 8</string>
+    <string name="_9_button">Button 9</string>
+    <string name="a_button">Button A</string>
+    <string name="b_button">Button B</string>
+    <string name="c_button">Button C</string>
+    <string name="d_button">Button D</string>
+    <string name="e_button">Button E</string>
+    <string name="f_button">Button F</string>
+    <string name="clear_button">Clear Button</string>
+    <string name="delete_button">Delete Button</string>
+    <string name="converter">Converter</string>
+    <string name="octal">Octal</string>
+    <string name="hex">Hex</string>
+    <string name="oct">Oct</string>
+    <string name="bin">Bin</string>
+    <string name="dec">Dec</string>
+</resources>
